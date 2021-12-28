@@ -1,0 +1,25 @@
+{
+  "name": "be_practice",
+  "version": "1.0.0",
+  "description": "문서를 관리하고 참가자가 문서에 서명이 가능한 `우리싸인 API 서버`를 개발해야 합니다. `공개용 API(가입/로그인/참가자 인증)`는 개발이 되어 있는 상태입니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kher1128/be_practice.git"
+  },
+  "keywords": [],
+  "author": "YoungWoo Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kher1128/be_practice/issues"
+  },
+  "homepage": "https://github.com/kher1128/be_practice#readme",
+  "dependencies": {
+    "express": "4.17.2",
+    "dotenv": "10.0.0",
+    "winston": "3.3.3"
+  }
+}
