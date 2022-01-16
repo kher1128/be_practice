@@ -4,6 +4,7 @@
   "description": "문서를 관리하고 참가자가 문서에 서명이 가능한 `우리싸인 API 서버`를 개발해야 합니다. `공개용 API(가입/로그인/참가자 인증)`는 개발이 되어 있는 상태입니다.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,7 @@
   "dependencies": {
     "express": "4.17.2",
     "dotenv": "10.0.0",
-    "winston": "3.3.3"
+    "winston": "3.3.3",
+    "mongoose": "6.1.4"
   }
 }
